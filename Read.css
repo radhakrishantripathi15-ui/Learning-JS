@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 40px;
+}
+
+/* Main paragraph */
+#t {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #333;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+#t1 {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #333;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Read More & Read Less */
+#rm,
+#rl {
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+#rm:hover,
+#rl:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Read Less different color */
+#rl {
+    background-color: #dc3545;
+}
+
+#rl:hover {
+    background-color: #b02a37;
+}
